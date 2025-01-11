@@ -34,6 +34,8 @@ p{
     align-items: center;
 }
 
+/* ========== Header section ========== */
+
 header{
     display: flex;
     width: 1600px;
@@ -76,6 +78,8 @@ main{
 section{
     width: 1280px;
 }
+
+/* ========== Banner section ========== */
 
 .banner{
     width: 1280px;
@@ -123,6 +127,8 @@ section{
     color: #006A50;
 }
 
+/* ========== Pillars section ========== */
+
 .pillars{
     display: flex;
     flex-direction: column;
@@ -150,6 +156,7 @@ section{
     border-radius: 16px;
     border: 2px solid #e8e8e8;
     padding: 24px 26px 24px 24px;
+    background: white;
 }
 
 .pillars .cards .card img{
@@ -159,6 +166,8 @@ section{
 .pillars .cards .card h4{
     margin-bottom: 12px;
 }
+
+/* ========== Vision of Future section ========== */
 
 .future {
     margin-top: 80px;
@@ -259,14 +268,17 @@ section{
     height: 225px;
     width: 1280px;
     border: 1px solid #7B7B7B;
-    background-image: url(./assets/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position-x: 24px;
-    background-position-y: 25px;
     padding: 48px 24px;
     border-radius: 16px;
     margin-top: 32px;
+    position: relative;
     background: white;
+}
+
+.future .text img{
+    position: absolute;
+    top: 25px;
+    left: 24px;
 }
 
 .future .text p{
@@ -279,6 +291,8 @@ section{
     color: #7B7B7B;
 }
 
+/* ========== Opinion Section ========== */
+
 .opinion{
     height: 480px;
     width: 1280px;
@@ -287,12 +301,15 @@ section{
 
 .opinion h1{
     font-size: 40px;
+    margin-bottom: 24px;
 }
 
 .opinion .questions{
     height: 400px;
     width: 1280px;
     padding: 32px;
+    background-color: white;
+    border-radius: 16px;
 }
 
 .opinion .head{
@@ -362,6 +379,8 @@ section{
     background: #b4d6c6;
 }
 
+/* ========== Recent News section ========== */
+
 .news{
     margin-top: 80px;
     height: 1400px;
@@ -392,6 +411,7 @@ section{
     padding: 48px;
     display: flex;
     align-items: center;
+    background: white;
 }
 
 .news .cards .card .text{
@@ -430,6 +450,8 @@ section{
     color: #006A50;
 }
 
+/* ========== Donation section ========== */
+
 .donate{
     margin-top: 80px;
     text-align: center;
@@ -465,6 +487,7 @@ section{
     justify-content: center;
     cursor: pointer;
     transition: .5s;
+    background: white;
 }
 
 .donate .cards .card:hover{
@@ -503,6 +526,8 @@ section{
     background: transparent;
     color: #006A50;
 }
+
+/* ========== News letter section ========== */
 
 .subscribe{
     height: 395px;
@@ -565,15 +590,18 @@ section{
     color: #7B7B7B;
 }
 
+/* ========== Footer section ========== */
+
 .last{
     height: 225px;
-    width: 1600px;
+    width: 100vw;
     margin-top: 80px;
     padding: 50px 160px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: white;
 }
 
 .last .dividor{
