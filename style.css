@@ -9,21 +9,28 @@
 
 body{
     display: flex;
-    width: 100%;
+    align-items: center;
     justify-content: center;
 }
 
+h4{
+    font-size: 20px;
+}
+
 .container{
-    width: 1600px;
     height: 100vh;
-    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
     display: flex;
+    width: 1600px;
+    padding: 24px 160px;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 160px;
 }
 
 header h1{
@@ -51,6 +58,10 @@ header .btn:hover{
 main{
     height: 100%;
     width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 }
 
 section{
@@ -58,7 +69,202 @@ section{
 }
 
 .banner{
-    width: 100%;
+    width: 1280px;
     height: 560px;
     border-radius: 24px;
+    background: #c6e4d6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 60px;
+}
+
+.banner .text{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner h3{
+    font-weight: 500;
+    color: #69624f;
+}
+
+.banner h1{
+    font-size: 54px;
+}
+
+.banner .btn{
+    height: 53px;
+    width: 268px;
+    background: #006A50;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+    border: 2px solid #006A50;
+}
+
+.banner .btn:hover{
+    background: transparent;
+    color: #006A50;
+}
+
+.pillars{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.pillars h1{
+    font-size: 40px;
+}
+
+.pillars p{
+    color: #7B7B7B;
+}
+
+.pillars .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.pillars .cards .card{
+    height: 225px;
+    width: 300px;
+    border-radius: 16px;
+    border: 2px solid #e8e8e8;
+    padding: 24px 26px 24px 24px;
+}
+
+.pillars .cards .card img{
+    margin-bottom: 14px;
+}
+
+.pillars .cards .card h4{
+    margin-bottom: 12px;
+}
+
+.future {
+    margin-top: 80px;
+}
+
+.future h1{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.future p{
+    margin-bottom: 32px;
+}
+
+.future .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.future .cards .card{
+    height: 325px;
+    width: 410px;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.future .cards .card img{
+    margin-bottom: 24px;
+}
+
+.future .cards .card h4{
+    margin-bottom: 12px;
+}
+
+.future .cards .card p{
+    margin-bottom: 24px;
+    color: #7B7B7B;
+}
+
+.future .cards .card .btn{
+    height: 40px;
+    width: 125px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.future .cards .card:nth-child(1){
+    background: #d5e1f5;
+}
+
+.future .cards .card:nth-child(1) .btn{
+    background: #5490f5;
+    border: 2px solid #5490f5;
+    transition: .3s
+}
+
+.future .cards .card:nth-child(1) .btn:hover{
+    background: transparent;
+    color: #5490f5;
+}
+
+.future .cards .card:nth-child(2){
+    background: #c6e4d6;
+}
+
+.future .cards .card:nth-child(2) .btn{
+    background: #09a15c;
+    border: 2px solid #09a15c;
+    transition: .3s
+}
+
+.future .cards .card:nth-child(2) .btn:hover{
+    background: transparent;
+    color: #09a15c;
+}
+
+.future .cards .card:nth-child(3){
+    background: #f7ebcf;
+}
+
+.future .cards .card:nth-child(3) .btn{
+    background: #ffc239;
+    border: 2px solid #ffc239;
+    transition: .3s;
+}
+
+.future .cards .card:nth-child(3) .btn:hover{
+    background: transparent;
+    color: #ffc239;
+}
+
+.future .text{
+    height: 225px;
+    width: 1280px;
+    border: 1px solid #7B7B7B;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 25px;
+    padding: 48px 24px;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+.future .text p{
+    font-size: 16px;
+    color: #0e0e0e;
+    margin-bottom: 18px;
+}
+
+.future .text span{
+    color: #7B7B7B;
 }
