@@ -217,6 +217,10 @@ section{
     color: white;
     border: none;
     cursor: pointer;
+    transition: .3s;
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
 }
 
 .future .cards .card:nth-child(1){
@@ -226,7 +230,6 @@ section{
 .future .cards .card:nth-child(1) .btn{
     background: #5490f5;
     border: 2px solid #5490f5;
-    transition: .3s
 }
 
 .future .cards .card:nth-child(1) .btn:hover{
@@ -241,7 +244,6 @@ section{
 .future .cards .card:nth-child(2) .btn{
     background: #09a15c;
     border: 2px solid #09a15c;
-    transition: .3s
 }
 
 .future .cards .card:nth-child(2) .btn:hover{
@@ -256,7 +258,6 @@ section{
 .future .cards .card:nth-child(3) .btn{
     background: #ffc239;
     border: 2px solid #ffc239;
-    transition: .3s;
 }
 
 .future .cards .card:nth-child(3) .btn:hover{
